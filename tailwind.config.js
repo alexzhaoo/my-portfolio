@@ -53,7 +53,6 @@ module.exports = {
       "875" : "875px"
     },
       fontFamily:{
-        burton:"burtons",
         Bebas_Neue:"beba"
       },
       backgroundImage: {

@@ -138,7 +138,7 @@ function Home() {
       </nav>
         <section  className='relative bg-gray-300 dark:bg-black'>
         <div >
-        <h3 id='sec'  className='text-white  font-burton text-xl font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center z-10'>My Portfolio</h3>
+        <h3 id='sec'  className='text-white  font-Bebas_Neue text-xl font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center z-10'>My Portfolio</h3>
         <h2  id='name' className='text-white font-Bebas_Neue font-bold text-6xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-40 text-center z-10 md:text-5xl xl:text-7xl '>Alexander Zhao </h2>
         </div>
           <div className= 'bg-cover bg-fixed bg-center bg-no-repeat'>
