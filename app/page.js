@@ -104,10 +104,6 @@ function Home() {
 
   const darken = darkMode ? "dark" : ""
 
-  useEffect(() => {
-    AOSWrapper.init();
-  }, []);
-
   return (
   
     <div className={darkMode ? 'dark' : ''}>
