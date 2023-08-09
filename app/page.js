@@ -9,7 +9,7 @@ import me from "../public/me.jpg"
 import homepage from "../public/homepage.jpg"
 import dynamic from 'next/dynamic';
 
-const AOSWrapper = dynamic(() => import('aos'), { ssr: false });
+import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Home() {
@@ -104,6 +104,11 @@ function Home() {
 
   const darken = darkMode ? "dark" : ""
 
+  useEffect(()=>{
+    AOS.init;
+  },[])
+
+  
   return (
   
     <div className={darkMode ? 'dark' : ''}>
