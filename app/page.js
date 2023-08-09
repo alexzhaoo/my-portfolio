@@ -105,14 +105,13 @@ function Home() {
   const darken = darkMode ? "dark" : ""
 
   useEffect(()=>{
-    AOS.init;
+    AOS.init();
   },[])
 
-  
+
   return (
   
     <div className={darkMode ? 'dark' : ''}>
-    <body>
       
       <main className=''>
       <nav className={`font-Lato text-lg hidden py-7 md:flex justify-between w-full fixed transition-colors ${navbarBackground} ${navbarColor} ${darken} z-20 `}>
@@ -340,7 +339,7 @@ function Home() {
     </div>
         </section>
       </main>
-      </body>
+
     </div>
   );
 }
