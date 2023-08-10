@@ -168,7 +168,7 @@ function Home() {
         </div>
       </div>
       <div className='mt-8 md:mt-0 sm:mt-0'>
-        <div data-aos="slide-down" data-aos-duration="2100" className='mx-auto mb-7 sm:mr-96 bg-gradient-to-b from-gray-600 to-orange-100 rounded-full w-72 h-72 overflow-hidden md:w-350 md:h-350 lg:w-450 lg:h-450'>
+        <div data-aos="slide-down"  data-aos-duration="2100" className='mx-auto mb-7 sm:mr-96 bg-gradient-to-b from-gray-600 to-orange-100 rounded-full w-72 h-72 overflow-hidden md:w-350 md:h-350 lg:w-450 lg:h-450'>
           <Image
             src={me}
             alt='Image'
@@ -188,7 +188,7 @@ function Home() {
       </div>
       <div   className="text-center text-black">
         <h3 data-aos="fade-in" data-aos-duration="3000" className="mt-5 text-teal-500 text-3xl font-light md:-ml-950">Education</h3>
-        <div data-aos="zoom-in"  data-aos-duration="2000" className="flex justify-center md:-ml-36">
+        <div data-aos="flip-up"  data-aos-duration="2000" className="flex justify-center md:-ml-36">
           <div className="py-5 text-zinc-900">
             <p className='font-semibold '>Toronto Montessori School</p>
             <p className='text-xs mt-4 '>September 2016 - May 2022</p> 
@@ -211,7 +211,7 @@ function Home() {
       <p style={{ borderBottom: '1px solid gray' }} className="text-orange-50 max-w-6xl mx-auto mt-10">    </p>
       <div className="text-center text-black">
       <h3 data-aos="fade-in"  data-aos-duration="2000" className="mt-5 text-teal-500 text-3xl font-light md:-ml-935">Careers</h3>
-      <div data-aos="zoom-out"  data-aos-duration="2000" className="flex justify-center md:-ml-16">
+      <div data-aos="flip-up"  data-aos-duration="2000" className="flex justify-center md:-ml-16">
         <div className="py-5 text-zinc-900">
           <p className='font-semibold '>QMIND</p>
           <p className='text-xs mt-4 '>September 2022 - April 2023</p> 
