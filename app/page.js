@@ -187,7 +187,7 @@ function Home() {
         <p style={{ borderBottom: '1px solid gray' }} className="text-orange-50 max-w-6xl mx-auto mt-10">    </p>
       </div>
       <div   className="text-center text-black">
-        <h3 data-aos="fade-in" data-aos-duration="3000" className="mt-5 text-teal-500 text-3xl font-light md:-ml-875">Education</h3>
+        <h3 data-aos="fade-in" data-aos-duration="3000" className="mt-5 text-teal-500 text-3xl font-light md:-ml-950">Education</h3>
         <div data-aos="zoom-in"  data-aos-duration="2000" className="flex justify-center md:-ml-36">
           <div className="py-5 text-zinc-900">
             <p className='font-semibold '>Toronto Montessori School</p>
@@ -210,7 +210,7 @@ function Home() {
       </div>
       <p style={{ borderBottom: '1px solid gray' }} className="text-orange-50 max-w-6xl mx-auto mt-10">    </p>
       <div className="text-center text-black">
-      <h3 data-aos="fade-in"  data-aos-duration="2000" className="mt-5 text-teal-500 text-3xl font-light md:-ml-875">Careers</h3>
+      <h3 data-aos="fade-in"  data-aos-duration="2000" className="mt-5 text-teal-500 text-3xl font-light md:-ml-935">Careers</h3>
       <div data-aos="zoom-out"  data-aos-duration="2000" className="flex justify-center md:-ml-16">
         <div className="py-5 text-zinc-900">
           <p className='font-semibold '>QMIND</p>
@@ -224,7 +224,7 @@ function Home() {
           <p className='font-semibold text-sm '>Innovation Design Team Member</p>
           <p className='text-sm font-light '> At QMIND, I worked in the innovation sector with 3 teammates, on a project called &quot;Rocket Landing&quot;.</p>
           <p className='text-sm font-light '> We used OpenAI Gym to set up an enviornment to train a Deep Reinforcment Learning Model. </p>
-          <p className='text-sm font-light '> To help train the model we used a Deep Q Network, along with an apprpriate reward system. </p>
+          <p className='text-sm font-light '> To help train the model we used a Deep Q Network, along with an appropriate reward system. </p>
           <p className='font-semibold text-sm mt-5 '>First Year Representative</p>
           <p className='text-sm font-light '>Working at QHACKS as a first-year representative was an amazing experience. I worked in every department, logistics, </p>
           <p className='text-sm font-light '> technology, partnerships, operations, and marketing. Two of my largest tasks,  </p>
