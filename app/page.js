@@ -181,14 +181,14 @@ function Home() {
       
       <section id='yur' className="min-h-screen bg-orange-50 dark:bg-gray-700 font-Lato">
       <div className="text-stone-950 text-center">
-        <h3 data-aos="slide-right"  data-aos-duration="2000"  className="text-5xl pt-16 text-teal-500 font-semibold">Experiences</h3>
-        <p data-aos="slide-right"  data-aos-duration="2000" className="mt-5 font-light">&quot;Experience gives us the tests first and the lessons later&quot;</p>
+        <h3 data-aos="slide-up"  data-aos-duration="2000"  className="text-5xl pt-16 text-teal-500 font-semibold">Experiences</h3>
+        <p data-aos="slide-down"  data-aos-duration="2000" className="mt-5 font-light">&quot;Experience gives us the tests first and the lessons later&quot;</p>
         <p data-aos="fade-in"  data-aos-duration="3000" className="mt-1 font-light">- Naomi Judd</p>
         <p style={{ borderBottom: '1px solid gray' }} className="text-orange-50 max-w-6xl mx-auto mt-10">    </p>
       </div>
       <div   className="text-center text-black">
         <h3 data-aos="fade-in" data-aos-duration="3000" className="mt-5 text-teal-500 text-3xl font-light md:-ml-950">Education</h3>
-        <div data-aos="flip-up"  data-aos-duration="2000" className="flex justify-center md:-ml-36">
+        <div data-aos="zoom-in"  data-aos-duration="2000" className="flex justify-center md:-ml-36">
           <div className="py-5 text-zinc-900">
             <p className='font-semibold '>Toronto Montessori School</p>
             <p className='text-xs mt-4 '>September 2016 - May 2022</p> 
@@ -211,7 +211,7 @@ function Home() {
       <p style={{ borderBottom: '1px solid gray' }} className="text-orange-50 max-w-6xl mx-auto mt-10">    </p>
       <div className="text-center text-black">
       <h3 data-aos="fade-in"  data-aos-duration="2000" className="mt-5 text-teal-500 text-3xl font-light md:-ml-935">Careers</h3>
-      <div data-aos="flip-up"  data-aos-duration="2000" className="flex justify-center md:-ml-16">
+      <div data-aos="zoom-in"  data-aos-duration="2000" className="flex justify-center md:-ml-16">
         <div className="py-5 text-zinc-900">
           <p className='font-semibold '>QMIND</p>
           <p className='text-xs mt-4 '>September 2022 - April 2023</p> 
