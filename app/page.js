@@ -148,7 +148,7 @@ function Home() {
         </section>
         <section id='no' className="min-h-screen font-Bebas_Neue bg-zinc-50 dark:bg-gray-800 flex flex-col justify-center items-center  md:flex-row sm:flex-row">
         <div  className='text-center p-5 py-20 mx-auto md:ml-96 sm:ml-96'>
-        <h3 data-aos="fade-in"  data-aos-duration="400" style={{ borderBottom: '2px solid gray' }} className='text-black text-3xl py-2 dark:text-white font-semibold max-w-5xl mx-auto'>Fullstack and Machine Learning Developer | Computer Science Student</h3>
+        <h3 data-aos="fade-in"  data-aos-duration="400"  style={{ borderBottom: '2px solid gray' }} className='text-black text-3xl py-2 dark:text-white font-semibold max-w-5xl mx-auto'>Fullstack and Machine Learning Developer | Computer Science Student</h3>
         <h3 data-aos="fade-in"  data-aos-duration="2000" style={{ borderBottom: '2px solid gray' }} className='mt-10 text-2xl max-w-md mx-auto text-black font-semibold dark:text-white'>About Me</h3>
         <p data-aos="fade-in"  data-aos-duration="2000" className='text-black text-lg py-5 leading-8 dark:text-white mx-auto'>I am a self-motivated second-year undergraduate student at Queen&apos;s University studying computer science with a specialization in Software Design. I am passionate about programming and am always eager to learn and try out new technologies. I have experience in developing software applications and am also interested in machine learning and data analysis.</p>
         <h3 data-aos="fade-in"  data-aos-duration="2000" style={{ borderBottom: '2px solid gray' }} className='mt-2 text-2xl max-w-md mx-auto text-black font-semibold dark:text-white'>Details</h3>
@@ -242,12 +242,12 @@ function Home() {
 
         <section className="min-h-screen bg-gray-100 dark:bg-gray-700"> 
           <div className='text-black text-center '>
-            <h3  className="text-5xl pt-16 text-black-500 font-semibold">Projects</h3>
-            <p className='mt-5 font-light'>&quot;The best way to predict the future is to create it.&quot;</p>
-            <p className='mt-5 font-light' >- Peter Drucker</p>
+            <h3 data-aos="fade-down"  data-aos-duration="2000"  className="text-5xl pt-16 text-black-500 font-semibold">Projects</h3>
+            <p data-aos="fade-in"  data-aos-duration="2000" className='mt-5 font-light'>&quot;The best way to predict the future is to create it.&quot;</p>
+            <p data-aos="fade-in"  data-aos-duration="2000" className='mt-5 font-light' >- Peter Drucker</p>
           </div>
-            <div className='flex flex-wrap  justify-center gap-10 '>
-              <div className='text-center text-black py-10 mt-10 shadow  rounded-md max-w-xl dark:text-white'>
+            <div  className='flex flex-wrap  justify-center gap-10 '>
+              <div data-aos="zoom-in"  data-aos-duration="2000" className='text-center text-black py-10 mt-10 shadow  rounded-md max-w-xl dark:text-white'>
                 <div className='flex justify-center'>
                   <Image src={cover} className='h-1/2 w-1/2' />
                 </div>
@@ -256,13 +256,13 @@ function Home() {
               Crafed a dynamic personal website using React, Next.js, JavaScript, featuring a seamless user experience
               and modern design. Leveraged Tailwind CSS for responsive UI components and NPM for library integration.
             </p>
-            <div className='flex justify-center'>
+            <div data-aos="flip-up"  data-aos-duration="2000" className='flex justify-center'>
               <a href="https://github.com/alexzhaoo/my-portfolio" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
                 <AiFillGithub className='text-black hover:shadow hover:shadow-black rounded-full dark:text-white' />
               </a>
           </div>
         </div>
-        <div className='text-center text-black py-10 mt-10 shadow  rounded-md max-w-xl dark:text-white'>
+        <div data-aos="zoom-in"  data-aos-duration="2000" className='text-center text-black py-10 mt-10 shadow  rounded-md max-w-xl dark:text-white'>
           <div className='flex justify-center'>
             <Image src={design} width={100} height={100} />
           </div>
@@ -272,12 +272,12 @@ function Home() {
             when an unknown printer took a galley of type and scrambled it to make a t
           </p>
           <div className='flex justify-center'>
-            <a href="https://github.com/alexzhaoo" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
+            <a data-aos="flip-up"  data-aos-duration="2000" href="https://github.com/alexzhaoo" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
               <AiFillGithub className='text-black hover:shadow hover:shadow-black rounded-full dark:text-white' />
             </a>
           </div>
       </div>
-      <div className='text-center text-black py-10 mt-10 shadow rounded-md max-w-xl dark:text-white'>
+      <div data-aos="zoom-in"  data-aos-duration="2000" className='text-center text-black py-10 mt-10 shadow rounded-md max-w-xl dark:text-white'>
         <div className='flex justify-center'>
           <Image src={design} width={100} height={100} />
         </div>
@@ -286,13 +286,13 @@ function Home() {
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           when an unknown printer took a galley of type and scrambled it to make a t
         </p>
-        <div className='flex justify-center'>
+        <div data-aos="flip-up"  data-aos-duration="2000" className='flex justify-center'>
           <a href="https://github.com/alexzhaoo" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
             <AiFillGithub className='text-black hover:shadow hover:shadow-black rounded-full dark:text-white' />
           </a>
         </div>
     </div>
-            <div className='text-center text-black py-10 mt-10 shadow rounded-md max-w-xl dark:text-white'>
+            <div data-aos="zoom-in"  data-aos-duration="2000" className='text-center text-black py-10 mt-10 shadow rounded-md max-w-xl dark:text-white'>
               <div className='flex justify-center'>
                 <Image src={design} width={100} height={100} />
               </div>
@@ -307,7 +307,7 @@ function Home() {
                 </a>
             </div>
           </div>
-          <div className='text-center text-black py-10 mt-10 shadow  rounded-md max-w-xl dark:text-white'>
+          <div data-aos="zoom-in"  data-aos-duration="2000" className='text-center text-black py-10 mt-10 shadow  rounded-md max-w-xl dark:text-white'>
             <div className='flex justify-center'>
               <Image src={design} width={100} height={100} />
             </div>
@@ -316,13 +316,13 @@ function Home() {
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               when an unknown printer took a galley of type and scrambled it to make a t
             </p>
-            <div className='flex justify-center'>
+            <div  className='flex justify-center'>
               <a href="https://github.com/alexzhaoo" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
                 <AiFillGithub className='text-black hover:shadow hover:shadow-black rounded-full dark:text-white' />
               </a>
             </div>
         </div>
-        <div className='text-center text-black py-10 mt-10 shadow  rounded-md max-w-xl dark:text-white'>
+        <div data-aos="zoom-in"  data-aos-duration="2000" className='text-center text-black py-10 mt-10 shadow  rounded-md max-w-xl dark:text-white'>
           <div className='flex justify-center'>
             <Image src={design} width={100} height={100} />
           </div>
