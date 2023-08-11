@@ -8,6 +8,7 @@ import design from "../app/design.png"
 import me from "../public/me.jpg"
 import homepage from "../public/homepage.jpg"
 import dynamic from 'next/dynamic';
+import cover from "../public/coverforport.jpg"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -248,15 +249,15 @@ function Home() {
             <div className='flex flex-wrap  justify-center gap-10 '>
               <div className='text-center text-black py-10 mt-10 shadow  rounded-md max-w-xl dark:text-white'>
                 <div className='flex justify-center'>
-                  <Image src={design} width={100} height={100} />
+                  <Image src={cover} className='h-1/2 w-1/2' />
                 </div>
-            <h3 className='text-lg font-bold pt-8 pb-2'>Project Name</h3>
+            <h3 className='text-lg font-bold pt-8 pb-2'>Personal Portfolio</h3>
             <p className='py-2'>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              when an unknown printer took a galley of type and scrambled it to make a t
+              Crafed a dynamic personal website using React, Next.js, JavaScript, featuring a seamless user experience
+              and modern design. Leveraged Tailwind CSS for responsive UI components and NPM for library integration.
             </p>
             <div className='flex justify-center'>
-              <a href="https://github.com/alexzhaoo" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
+              <a href="https://github.com/alexzhaoo/my-portfolio" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
                 <AiFillGithub className='text-black hover:shadow hover:shadow-black rounded-full dark:text-white' />
               </a>
           </div>
