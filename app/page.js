@@ -9,6 +9,7 @@ import me from "../public/me.jpg"
 import homepage from "../public/homepage.jpg"
 import dynamic from 'next/dynamic';
 import cover from "../public/coverforport.jpg"
+import nba from "../public/nba.png"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -264,7 +265,7 @@ function Home() {
         </div>
         <div data-aos="zoom-in"  data-aos-duration="2000" className='text-center text-black py-10 mt-10 shadow  rounded-md max-w-xl dark:text-white'>
           <div className='flex justify-center'>
-            <Image src={design} width={100} height={100} />
+            <Image src={nba} width={100} height={100} />
           </div>
           <h3 className='text-lg font-bold pt-8 pb-2'>NBA Rookie Success Classifier</h3>
           <p className='py-2'>
