@@ -269,7 +269,7 @@ function Home() {
           </div>
           <h3 className='text-lg font-bold pt-8 pb-2'>NBA Rookie Success Classifier</h3>
           <p className='py-2'>
-          Developed the "NBA Rookie to All-Star Classifier," a binary classification model that predicts the likelihood of an NBA rookie becoming an all-star based on their first or second season stats. Leveraged artificial perceptron techniques and Principal Component Analysis (PCA) for dimensionality reduction, achieving an optimized and reusable model for future predictions.
+          Developed the NBA Rookie to All-Star Classifier, a binary classification model that predicts the likelihood of an NBA rookie becoming an all-star based on their first or second season stats. Leveraged artificial perceptron techniques and Principal Component Analysis (PCA) for dimensionality reduction, achieving an optimized and reusable model for future predictions.
           </p>
           <div className='flex justify-center'>
             <a data-aos="flip-up"  data-aos-duration="2000" href="https://github.com/alexzhaoo/nbaprediction" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
