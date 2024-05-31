@@ -150,7 +150,7 @@ function Home() {
         <div  className='text-center p-5 py-20 mx-auto md:ml-96 sm:ml-96'>
         <h3 data-aos="fade-in"  data-aos-duration="400"  style={{ borderBottom: '2px solid gray' }} className='text-black text-3xl py-2 dark:text-white font-semibold max-w-5xl mx-auto'>Fullstack and Machine Learning Developer | Computer Science Student</h3>
         <h3 data-aos="fade-in"  data-aos-duration="2000" style={{ borderBottom: '2px solid gray' }} className='mt-10 text-2xl max-w-md mx-auto text-black font-semibold dark:text-white'>About Me</h3>
-        <p data-aos="fade-in"  data-aos-duration="2000" className='text-black text-lg py-5 leading-8 dark:text-white mx-auto'>I am a self-motivated second-year undergraduate student at Queen&apos;s University studying computer science with a specialization in Data Science. I am passionate about programming and am always eager to learn and try out new technologies. I have experience in developing software applications and am also interested in machine learning and data analysis.</p>
+        <p data-aos="fade-in"  data-aos-duration="2000" className='text-black text-lg py-5 leading-8 dark:text-white mx-auto'>I am a self-motivated third-year undergraduate student at Queen&apos;s University studying computer science with a specialization in Data Science. I am passionate about programming and am always eager to learn and try out new technologies. I have experience in developing software applications and am also interested in machine learning and data analysis.</p>
         <h3 data-aos="fade-in"  data-aos-duration="2000" style={{ borderBottom: '2px solid gray' }} className='mt-2 text-2xl max-w-md mx-auto text-black font-semibold dark:text-white'>Details</h3>
         <p data-aos="fade-in"  data-aos-duration="2000" className="text-black text-md py-5 leading-8 dark:text-white max-w-2xl mx-auto" style={{ display: 'flex', flexDirection: 'column' }}>
           Location: Toronto<br />
@@ -266,13 +266,12 @@ function Home() {
           <div className='flex justify-center'>
             <Image src={design} width={100} height={100} />
           </div>
-          <h3 className='text-lg font-bold pt-8 pb-2'>Project Name</h3>
+          <h3 className='text-lg font-bold pt-8 pb-2'>NBA Rookie Success Classifier</h3>
           <p className='py-2'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            when an unknown printer took a galley of type and scrambled it to make a t
+          Developed the "NBA Rookie to All-Star Classifier," a binary classification model that predicts the likelihood of an NBA rookie becoming an all-star based on their first or second season stats. Leveraged artificial perceptron techniques and Principal Component Analysis (PCA) for dimensionality reduction, achieving an optimized and reusable model for future predictions.
           </p>
           <div className='flex justify-center'>
-            <a data-aos="flip-up"  data-aos-duration="2000" href="https://github.com/alexzhaoo" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
+            <a data-aos="flip-up"  data-aos-duration="2000" href="https://github.com/alexzhaoo/nbaprediction" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
               <AiFillGithub className='text-black hover:shadow hover:shadow-black rounded-full dark:text-white' />
             </a>
           </div>
