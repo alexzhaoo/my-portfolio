@@ -149,13 +149,13 @@ function Home() {
         </section>
         <section id='no' className="min-h-screen font-Bebas_Neue bg-zinc-50 dark:bg-gray-800 flex flex-col justify-center items-center  md:flex-row sm:flex-row">
         <div  className='text-center p-5 py-20 mx-auto md:ml-96 sm:ml-96'>
-        <h3 data-aos="fade-in"  data-aos-duration="400"  style={{ borderBottom: '2px solid gray' }} className='text-black text-3xl py-2 dark:text-white font-semibold max-w-5xl mx-auto'>Fullstack and Machine Learning Developer | Computer Science Student</h3>
+        <h3 data-aos="fade-in"  data-aos-duration="400"  style={{ borderBottom: '2px solid gray' }} className='text-black text-3xl py-2 dark:text-white font-semibold max-w-5xl mx-auto'>Fullstack and Machine Learning Developer | Data Science Student</h3>
         <h3 data-aos="fade-in"  data-aos-duration="2000" style={{ borderBottom: '2px solid gray' }} className='mt-10 text-2xl max-w-md mx-auto text-black font-semibold dark:text-white'>About Me</h3>
-        <p data-aos="fade-in"  data-aos-duration="2000" className='text-black text-lg py-5 leading-8 dark:text-white mx-auto'>I am a self-motivated third-year undergraduate student at Queen&apos;s University studying computer science with a specialization in Data Science. I am passionate about programming and am always eager to learn and try out new technologies. I have experience in developing software applications and am also interested in machine learning and data analysis.</p>
+        <p data-aos="fade-in"  data-aos-duration="2000" className='text-black text-lg py-5 leading-8 dark:text-white mx-auto'>I am a self-motivated third-year undergraduate student at Queen&apos;s University studying computer science with a specialization in Data Science. I am passionate about programming and am always eager to learn and try out new technologies. I have experience in developing software applications, as well as advanced machine learnign and data analysis techniques.</p>
         <h3 data-aos="fade-in"  data-aos-duration="2000" style={{ borderBottom: '2px solid gray' }} className='mt-2 text-2xl max-w-md mx-auto text-black font-semibold dark:text-white'>Details</h3>
         <p data-aos="fade-in"  data-aos-duration="2000" className="text-black text-md py-5 leading-8 dark:text-white max-w-2xl mx-auto" style={{ display: 'flex', flexDirection: 'column' }}>
           Location: Toronto<br />
-          Age: 19
+          Age: 20
         </p>
         <div data-aos="fade-in"  data-aos-duration="2000" className='text-gray-600 text-3xl flex justify-center gap-10'>
           <a href="https://www.instagram.com/alexzhaoooo/" target="_blank" rel="noopener noreferrer" className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 '>
@@ -203,8 +203,8 @@ function Home() {
             <p className='text-sm font-light '> high school I participated in the IB DP Programme, where I enrolled in higher level Math, Physics</p>
             <p className='text-sm font-light '> and Economics. Completed an extended essay, and multiple individual assesments.  </p>
             <p className='font-semibold text-sm mt-5 '>Bachelor of Computing(Honours) / BCmpH</p>
-            <p className='text-sm font-light '> I am currently entering my second year of studies at Queen&apos;s University for Computing. The curriculum  </p>
-            <p className='text-sm font-light '>is designed to include multiple languages such as Python, Java, and C. I also have learned different </p>
+            <p className='text-sm font-light '> I am currently in my third year of studies at Queen&apos;s University for Computing. The curriculum  </p>
+            <p className='text-sm font-light '>is designed to include multiple languages as well as advanced data analysis techniques. I also have learned different </p>
             <p className='text-sm font-light '>developmental strategies such as the waterfall approach and agile development.</p>
 
           </div>
@@ -217,8 +217,8 @@ function Home() {
         <div className="py-5 text-zinc-900">
           <p className='font-semibold '>QMIND</p>
           <p className='text-xs mt-4 '>September 2022 - April 2023</p> 
-          <p className='mt-130 font-semibold md:mt-12'>QHACKS</p>
-          <p className='text-xs mt-4 '>September 2023 - April 2023</p>
+          <p className='mt-130 font-semibold md:mt-12'>XK Innovate</p>
+          <p className='text-xs mt-4 '>July 2024 - Present</p>
           <p className='mt-24 font-semibold md:mt-12'>Triway Education</p>
           <p className='text-xs mt-4 '>May 2023 - August 2023</p>
         </div>
@@ -227,10 +227,10 @@ function Home() {
           <p className='text-sm font-light '> At QMIND, I worked in the innovation sector with 3 teammates, on a project called &quot;Rocket Landing&quot;.</p>
           <p className='text-sm font-light '> We used OpenAI Gym to set up an enviornment to train a Deep Reinforcment Learning Model. </p>
           <p className='text-sm font-light '> To help train the model we used a Deep Q Network, along with an appropriate reward system. </p>
-          <p className='font-semibold text-sm mt-5 '>First Year Representative</p>
-          <p className='text-sm font-light '>Working at QHACKS as a first-year representative was an amazing experience. I worked in every department, logistics, </p>
-          <p className='text-sm font-light '> technology, partnerships, operations, and marketing. Two of my largest tasks,  </p>
-          <p className='text-sm font-light '> I worked with sponsors, and utilized Discord.js to build a server for hackers.</p>
+          <p className='font-semibold text-sm mt-5 '>Data Science Research Intern</p>
+          <p className='text-sm font-light '>Currently I am doing an internship at XK Innovate as a data science research intern, where I am involved </p>
+          <p className='text-sm font-light '> data cleaning, segmentation, machine learning, deep learning and  </p>
+          <p className='text-sm font-light '> neural networks. Throughout my time I have gained industry leading data skills.</p>
           <p className='font-semibold text-sm mt-5 '>Python || Java || Math Tutor </p>
           <p className='text-sm font-light '> As a tutor I prepared many lessons in advance catering to every student&apos;s personal needs. </p>
           <p className='text-sm font-light '>Using various online resources such as coderpad, desmos, and dmoj I facilitated hands</p>
@@ -283,8 +283,7 @@ function Home() {
         </div>
         <h3 className='text-lg font-bold pt-8 pb-2'>Project Name</h3>
         <p className='py-2'>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          when an unknown printer took a galley of type and scrambled it to make a t
+  
         </p>
         <div data-aos="flip-up"  data-aos-duration="2000" className='flex justify-center'>
           <a href="https://github.com/alexzhaoo" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
@@ -298,8 +297,7 @@ function Home() {
               </div>
               <h3 className='text-lg font-bold pt-8 pb-2'>Project Name</h3>
               <p className='py-2'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                when an unknown printer took a galley of type and scrambled it to make a t
+   
               </p>
               <div className='flex justify-center'>
                 <a href="https://github.com/alexzhaoo" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
@@ -313,8 +311,7 @@ function Home() {
             </div>
             <h3 className='text-lg font-bold pt-8 pb-2'>Project Name</h3>
             <p className='py-2'>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-              when an unknown printer took a galley of type and scrambled it to make a t
+     
             </p>
             <div  className='flex justify-center'>
               <a href="https://github.com/alexzhaoo" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
@@ -328,8 +325,7 @@ function Home() {
           </div>
           <h3 className='text-lg font-bold pt-8 pb-2'>Project Name</h3>
           <p className='py-2'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            when an unknown printer took a galley of type and scrambled it to make a t
+    
           </p>
           <div className='flex justify-center'>
             <a href="https://github.com/alexzhaoo" target="_blank" rel="noopener noreferrer"  className='transition-opacity delay-100 hover:opacity-90 hover:-translate-y-1 text-3xl'>
